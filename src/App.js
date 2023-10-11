@@ -2,6 +2,7 @@ import './App.css';
 import resume from './resume.pdf';
 import linkedin from './icons/linkedin.svg';
 import github from './icons/github.svg';
+import react from './icons/react.svg';
 import Slide from 'react-reveal/Slide';
 
 function Project(project) {
@@ -57,8 +58,8 @@ function App() {
           <h1>Hello! My name is Andre.<span className="animate__animated animate__flash animate__infinite infinite">|</span></h1>
           <h2>Systems Design Engineering Student @ uWaterloo</h2>
           <div className = "icons">
-            <img className = "icon" src={linkedin} alt="linkedin logo" width='50em' height='50em'></img>
-            <img className = "icon" src={github} alt="github logo" width='50em' height='50em'></img>
+            <a href="https://www.linkedin.com/in/andre-ke/" target="_blank" rel="noreferrer"><img className = "icon" src={linkedin} alt="linkedin logo" width='50em' height='50em'></img></a>
+            <a href="https://github.com/nohyp3"target="_blank" rel="noreferrer"><img className = "icon" src={github} alt="github logo" width='50em' height='50em'></img></a>
             <a className = "icon" href={resume} target="_blank" rel="noreferrer">Resume</a>
           </div>
         </div> 
@@ -68,7 +69,7 @@ function App() {
         <ProjectsSection projectsData={projectsData} />
       </div>
       <div className="footer">
-        built with react.
+        <p>Built With</p> <img src={react}></img>
       </div>
     </div>
   );
