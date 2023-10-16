@@ -34,6 +34,12 @@ function ProjectsSection({projectsData}) {
 function App() {
   const projectsData = [
     {
+      name: "Grocery Run",
+      description: "Need groceries to cook your next meal but don't know where to get the cheapest ingredients? We made a react app that tells you where to get the cheapest groceries in a time effecient way.",
+      link: "https://devpost.com/software/grocery-run-jzobac",
+
+    },
+    {
       name: "Sort the 6ix",
       description: "What if you could find out where to throw your household waste using the camera of your phone? Used React Native, the Google Cloud AI Api, Hugging Face AI's Semantic Search, and City of Toronto's open data",
       image: "project1.jpg",
@@ -47,8 +53,11 @@ function App() {
     },
     {
       name: "Youthfi",
-      description: "An experimental site that taught financial basics. Built to experiment with React. "
+      description: "An experimental site that taught financial basics. Built to experiment with React. ",
+      link: "https://github.com/nohyp3/youthfi",
+
     },
+
     // Add more projects as needed
   ];
   return (
