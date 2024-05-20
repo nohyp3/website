@@ -34,6 +34,11 @@ function ProjectsSection({projectsData}) {
 function App() {
   const projectsData = [
     {
+      name: "BlockBrain",
+      description:"A full-stack blockchain learning platform that incentivizes users with NFTs. Uses Cohere AI to grade answers that test user's understanding of content. Built using React, ChakraUI, Express, and MongoDB.",
+      link: "https://taikai.network/hackbox/hackathons/hawkhacks/projects/clwd3yico0ca5uc01z93z8sn3/idea"
+    },
+    {
       name: "Grocery Run",
       description: "Need groceries to cook your next meal but don't know where to get the cheapest ingredients? We made a react app that tells you where to get the cheapest groceries in a time effecient way.",
       link: "https://devpost.com/software/grocery-run-jzobac",
